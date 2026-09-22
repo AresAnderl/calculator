@@ -35,7 +35,7 @@
 }
 
 
-.number, .clear, .back, .operator {
+.number, .clear, .back, .operator, .equal {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,6 +50,6 @@
     background-color: lightgray;
 }
 
-.operator {
+.operator, .equal {
     background-color: #FFCC00; 
 }
